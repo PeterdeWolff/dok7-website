@@ -1,43 +1,280 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 
-body {
-    background-image: url(../assets/images/IMG_3255a.jpeg);
-    height: 100vh;
+
+.background-homepage{
+    height: 100vw;
+    background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    display: flex;
-    font-family: 'Oswald', sans-serif;
-   
+    background-position: bottom;
+    background-image: url('../assets/images/img_3275_800.jpg');
 }
+
+
+
+
+h1
+h2
+h3{
+    margin:0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/* ---------top bar---------*/
+
+#sp-top-bar{
+    height: 30px;
+    width: 100vw;
+    background: #000;
+    color: #fff;
+    padding: 8px 0;
+    font-size: 0.6rem;
+    top:0;
+    position:relative ;
+   
+  
+}
+
+
 
 /* --------------------header*/
 
 header {
     height: auto;
     width: 100vw; /* added */
-    margin-top: 0;
+    margin-top: 0px;
     margin-bottom: 0;
+    position: relative;
+    
 }
 
-
-
 .navbar-brand {
-    width: 15rem;
-    height: auto;
-    background-image: url("../assets/images/logo.png");
+    width: 161px;
+    background-image: url("../assets/images/logo_dok7woensel_161x90.jpg");
+    background-size: cover;
     background-position: top left;
     margin-left: 0;
     background-repeat: no-repeat;
-    min-height: 120px;
+    min-height: 90px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
 }  
 
 
-
+.nav-link {
+    text-transform: uppercase;
+    color: #fff;
+}
 
     
+.navbar-nav .nav-link {
+    color: #fff;
+}
+
+.nav-item.active{
+    background-color: yellow;
+}
+
+/*----- about-page------*/
+
+.home-text-container {
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    position: relative;
+
+}
+
+
+.main-content {
+    background: transparant;
+    height:100%;
+    width: 25%;
+    margin-left:37%;
+    margin-top: 15%;
+    padding-top: 10px;    
+    position: fixed;
+   
+}
+
+.main-content-page1 {
+    font-family: 'Oswald', sans-serif; 
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    color: yellow;
+    
+}
+
+
+/*-----about-----*/
+
+
+.left {
+    grid-area: left;
+    padding-bottom: 8rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 8rem;
+}
+
+.right {
+    grid-area: right;
+}
+
+#main {
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 'left right';
+}
+
+@media screen and (max-width: 40em) {
+    #main {
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas: 'right' 'left';
+    }
+}
+
+.right {
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-image: url('../assets/images/team_img_0902_480x640.jpg');
+    width: 18rem;
+    height: 24rem;
+    padding:8rem;
+    margin: 10px;
+    
+}
+
+/*----women----*/
+
+@media (min-width: 576px)
+.col-sm-3 {
+    flex: 0;
+    max-width: 50%;
+}
+
+
+.logo-brands{
+    min-width: 150px;
+    min-height: 150px;
+    background-color: green;
+    background-size: cover;
+    display: inline-block ;
+    border: 5px;
+    border-color: black;
+}
+
+.brands{
+    padding-left: 25px;
+    padding-right: 25px;
+   
+}
+
+/*-----conatct-----*/
+
+.address {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 2px;
+}
+
+.contact-heading {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+.form-control{
+    background-color: #f8f9fa;
+    margin-bottom: 15px;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: blue;
+}
+
+/*----footer----*/
+
+#main-footer {
+    display: inline-block;
+    background: #f2f2f2;
+    min-height: 2rem;
+    width: 100vw;
+    position: relative;
+    bottom: 0px;
+}
+
+.social-media {
+    font-family: 'Oswald', sans-serif; 
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    color: black;
+}
+
+.social-links {
+    padding-top:15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: yellow;
+    background: blue;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #e84610;
+}
+.logo-woensel{
+    min-width: 200px;
+    background-image: url("../assets/images/logo-nw.jpg");
+    background-size:cover;
+    background-position: center;
+    margin-top: 1em;
+    background-repeat: no-repeat;
+    height: 100px;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
