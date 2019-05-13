@@ -12,7 +12,25 @@
     background-image: url('../assets/images/img_3275_800.jpg');
 }
 
+.background-women{
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: bottom;
+    background-image: url('/assets/images/achtergrond baksteen.jpeg');
+}
 
+.background-about{
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: bottom;
+    background-image: url('/assets/images/achtergrond-hout.jpeg');
+}
 
 
 h1
@@ -121,14 +139,14 @@ header {
 .left {
     grid-area: left;
     padding-bottom: 8rem;
-    padding-left: 2rem;
+    padding-left: 4rem;
     padding-right: 2rem;
     padding-top: 8rem;
 }
 
 .right {
     grid-area: right;
-}
+ }
 
 #main {
     height: auto;
@@ -157,39 +175,41 @@ header {
     height: 24rem;
     padding:8rem;
     margin: 10px;
-    
 }
-
-/*----women----*/
 
 @media (min-width: 576px)
 .col-sm-3 {
     flex: 0;
     max-width: 50%;
 }
+/*----women----*/
+
 
 
 .logo-brands{
     
-    background-color: green;
+    background-color: black;
     background-size: cover;
     display: inline-block ;
+    padding: 5px;
     margin: 5px;
-    border: 5px;
-    border-color: black;
-}
-
-.brands{
-    padding-left: 25px;
-    padding-right: 25px;
+}    
     
+.position-brands{
+    text-align: center;
+    padding:5px;
+}
+
+
 .image-store {
-   
+    background-size: cover;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
 }
    
 
-
-/*-----conatct-----*/
+/*-----contact-----*/
 
 .address {
     font-family: 'Oswald', sans-serif;
@@ -243,7 +263,7 @@ button[type="submit"] {
     text-align: center;
     font-size: 25px;
     font-weight: 400;
-    color: black;
+    color: yellow;
 }
 
 .social-links {
