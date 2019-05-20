@@ -35,13 +35,16 @@
 
 h1
 h2
-h3{
+h3
+h4{
     margin:0;
 }
 
 .uppercase {
     text-transform: uppercase;
 }
+
+
 
 /* ---------top bar---------*/
 
@@ -50,12 +53,10 @@ h3{
     width: 100vw;
     background: #000;
     color: #fff;
-    padding: 8px 0;
+    padding: 4px;
     font-size: 0.6rem;
     top:0;
     position:relative ;
-   
-  
 }
 
 
@@ -64,7 +65,7 @@ h3{
 
 header {
     height: auto;
-    width: 100vw; /* added */
+    width: 100vw;
     margin-top: 0px;
     margin-bottom: 0;
     position: relative;
@@ -99,7 +100,7 @@ header {
     background-color: yellow;
 }
 
-/*----- about-page------*/
+/*----- index-page------*/
 
 .home-text-container {
     display: block;
@@ -112,59 +113,43 @@ header {
 
 .main-content {
     background: transparant;
-    height:100%;
-    width: 25%;
-    margin-left:37%;
-    margin-top: 15%;
-    padding-top: 10px;    
-    position: fixed;
-   
+    
 }
 
 .main-content-page1 {
     font-family: 'Oswald', sans-serif; 
-    width: 100%;
-    padding-top: 5px;
+    max-width:30rem;
+    padding-top: 10rem;
     text-align: center;
-    font-size: 35px;
-    font-weight: 700;
+    font-size: 25px;
+    font-weight: 600;
     color: yellow;
-    
+}
+
+.additional-content1{
+    background: #12cdde;
+    margin: 2rem;
+    padding: 1rem; 
+    text-align: left;
+    font-size: 12px;
+    font-weight: 100;
+    color: #00000f;
+}
+.additional-content2{
+    background: #0bf09d;
+    margin-top: 35rem;
+    margin-left: 2rem;
+    padding: 1rem; 
+    text-align: left;
+    font-size: 12px;
+    font-weight: 100;
+    color: #00000f;
 }
 
 
 /*-----about-----*/
 
-
-.left {
-    grid-area: left;
-    padding-bottom: 8rem;
-    padding-left: 4rem;
-    padding-right: 2rem;
-    padding-top: 8rem;
-}
-
-.right {
-    grid-area: right;
- }
-
-#main {
-    height: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: 'left right';
-}
-
-@media screen and (max-width: 40em) {
-    #main {
-        grid-template-rows: 1fr 1fr;
-        grid-template-columns: 1fr;
-        grid-template-areas: 'right' 'left';
-    }
-}
-
-.right {
+.image-team {
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -174,14 +159,27 @@ header {
     width: 18rem;
     height: 24rem;
     padding:8rem;
-    margin: 10px;
 }
 
-@media (min-width: 576px)
-.col-sm-3 {
-    flex: 0;
-    max-width: 50%;
+.left {
+    grid-area: left;
+    padding-bottom: 8rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
 }
+
+.right {
+    grid-area: right;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+  
+}
+
+
+
+
 /*----women----*/
 
 
