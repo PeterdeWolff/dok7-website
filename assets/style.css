@@ -8,7 +8,7 @@
 
 
 .background-homepage{
-    height: 100vw;
+    max-height: 60vw;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -118,17 +118,16 @@ header {
 
 
 .main-content {
-    background: transparant;
-    
+    background: #2a2a2a;
 }
 
 .main-content-page1 {
-    font-family: 'Oswald', sans-serif; 
-    max-width:30rem;
-    padding-top: 10rem;
+    background: #5ff412;
+    margin-top: 12rem;
+    padding: 1rem; 
     text-align: center;
-    font-size: 25px;
-    font-weight: 600;
+    font-size: 30px;
+    font-weight: 500;
     color: #00000f;
 }
 
@@ -143,7 +142,7 @@ header {
 }
 .additional-content2{
     background: #0bf09d;
-    margin-top: 35rem;
+    margin-top: 20rem;
     margin-left: 2rem;
     padding: 1rem; 
     text-align: left;
@@ -252,8 +251,8 @@ button[type="submit"] {
     background: #f2f2f2;
     min-height: 2rem;
     width: 100vw;
-    position: relative;
-    bottom: 0px;
+    position: fixed;
+    margin-bottom: 0px;
 }
 
 .social-media {
