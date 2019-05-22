@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 
+.container wrapper1{
+    max-width: 1280px;
+    
+}
+
+
 
 .background-homepage{
     height: 100vw;
@@ -123,7 +129,7 @@ header {
     text-align: center;
     font-size: 25px;
     font-weight: 600;
-    color: yellow;
+    color: #00000f;
 }
 
 .additional-content1{
@@ -162,7 +168,6 @@ header {
 }
 
 .left {
-    grid-area: left;
     padding-bottom: 8rem;
     padding-left: 2rem;
     padding-right: 2rem;
@@ -170,7 +175,6 @@ header {
 }
 
 .right {
-    grid-area: right;
     padding-left: 2rem;
     padding-right: 2rem;
     padding-top: 2rem;
@@ -200,10 +204,8 @@ header {
 
 
 .image-store {
-    background-size: cover;
-    text-align: center;
-    padding: 5px;
-    margin: 5px;
+    max-width: 400px;
+    margin: 0;
 }
    
 
@@ -257,11 +259,11 @@ button[type="submit"] {
 .social-media {
     font-family: 'Oswald', sans-serif; 
     width: 100%;
-    padding-top: 5px;
+    padding-top: 10px;
     text-align: center;
     font-size: 25px;
     font-weight: 400;
-    color: yellow;
+    color: #00000f;
 }
 
 .social-links {
@@ -271,14 +273,14 @@ button[type="submit"] {
 }
 
 .social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px;
-    border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
+    width: 40px;
+    height: 40px;
+    padding: 15px;
+    border-radius: 10%;
+    font-size: 25px;
+    line-height: 10px;
     text-align: center;
-    color: yellow;
+    color: #99999f;
     background: blue;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
