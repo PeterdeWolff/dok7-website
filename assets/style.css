@@ -103,7 +103,7 @@ header {
 }
 
 .nav-item.active{
-    background-color: yellow;
+    background-color: #5ff412;
 }
 
 /*----- index-page------*/
@@ -183,7 +183,7 @@ header {
 
 
 
-/*----women----*/
+/*----women/men----*/
 
 
 
@@ -203,8 +203,8 @@ header {
 
 
 .image-store {
-    max-width: 400px;
-    margin: 0;
+    background-size: cover;
+    margin: 5px;
 }
    
 
@@ -274,10 +274,9 @@ button[type="submit"] {
 .social-links li a i {
     width: 40px;
     height: 40px;
-    padding: 15px;
+    padding-top: 8px;
     border-radius: 10%;
     font-size: 25px;
-    line-height: 10px;
     text-align: center;
     color: #99999f;
     background: blue;
@@ -296,6 +295,7 @@ button[type="submit"] {
     background-size: contain;
     background-position: center;
     margin-top: 1em;
+    margin-bottom: 1em;
     background-repeat: no-repeat;
     height: 100px;
     -moz-transition: all .5s ease-in-out;
