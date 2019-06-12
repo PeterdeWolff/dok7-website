@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 
 .container-wrapper1{
-    max-width: 1280px;
+    max-width: 1800px;
     
 }
 
@@ -221,7 +221,6 @@ header {
 .contact-heading {
     font-family: 'Oswald', sans-serif;
     font-weight: 200;
-    margin-top: 25px;
     margin-bottom: 20px;
 }
 
