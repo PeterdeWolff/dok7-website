@@ -24,6 +24,7 @@ At this moment the owner does not have the need to add online shopping to the si
 ## **UX**
 Visitors of the website are (potential) customers searching for information, the people that are questioned all knew that the website does not offer an online shop.
 
+The user stories below are initiated after interviews with several potential users and the owner of the shop.
 
 ## **User experience client stories are:**
 -	As a new visitor to the website, I want to easily navigate the site, so I can find what I am looking for efficiently.
@@ -153,7 +154,15 @@ _ The navigation button “contact” should direct to the “contact” page.  
 
 - On the contact page the  Questions and remarks are not shown on the site.  The send button is not yet activated. 
 
-#### General inormation
+
+## Deployment
+
+This project was developed using the [Cloud9 IDE](https://c9.io), committed to git and pushed to GitHub using the built in function within cloud9. 
+
+The site can be visited using the URL:(https://github.com/PeterdeWolff/dok7-website)
+
+
+#### General information
 
 The owner of the store can use to website to present their latest fashion and to announce upcoming events like extra opening hours or sales. The owner receives customer info via the form what they can use for direct communication with the customer.  NOTE!!  There must be an opt-in to ask permission for sending newsletters and/or promotional information.
 

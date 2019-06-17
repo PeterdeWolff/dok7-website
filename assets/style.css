@@ -164,6 +164,11 @@ header {
     padding:8rem;
 }
 
+.background-text{
+    background-color:#f8f9fa;
+    padding: 5px;
+}
+
 .left {
     padding-bottom: 8rem;
     padding-left: 2rem;
@@ -207,6 +212,13 @@ header {
    
 
 /*-----contact-----*/
+
+.background-text1{
+    width: 50%;
+    margin-left: 25%;
+    background-color:#f8f9fa;
+    padding: 5px;
+}
 
 .address {
     font-family: 'Oswald', sans-serif;
