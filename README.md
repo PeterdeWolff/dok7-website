@@ -1,7 +1,7 @@
 # **Readme file for the Website DOK7.**
 
 Below you will find a description of the website for clothing store “DOK7woensel”  built for the first milestone project of the Code Institute full stack developer program.
-The site can be visited using the URL:  https://github.com/PeterdeWolff/dok7-website
+The site can be visited using the link  [website dok7](https://github.com/PeterdeWolff/dok7-website)
 
 DOK7 is a small clothing store for men and women.  The store continuously updates their collection according to the latest fashion.  Pictures of their collection are often shown on social media like facebook and instagram.  The website presents all the basic info like opening hours, address, brands, team, upcoming events and the possibility to leave a remark or question  on the contact page. 
 The main goal of the website is to inform (potential) customers. To give them a website where they can find information about address and opening hours, the brands they sell, upcoming events etc. The website is a need next to various social media platforms like facebook, Instagram.
@@ -90,6 +90,7 @@ In the future I would like to add a few extra services like:
 ## **Testing**
 
 All pages are checked using the W3C CSS validiation and W3C Markup validation. 
+During development the "inspect" option is often used to change styling and positioning of content.
 
 ### **Testing Client stories**
 
@@ -142,7 +143,7 @@ All pages are checked using the W3C CSS validiation and W3C Markup validation.
 
 - The navigation button “men” should direct to the “men” page.  On this page you will find the brands for men and some pictures.  The     brand logo’s are also linked to their website. All links will be opened in a new tab using the target = “blank” rule.
 
-_ The navigation button “contact” should direct to the “contact” page.  On the contact page you will find the address details and         opening hours. Also the form will be present here. You can leave your email address and a remark/question.  The email field is           required and in case there is an invalid submission the error “invalid email address” will be noted.
+- The navigation button “contact” should direct to the “contact” page.  On the contact page you will find the address details and         opening hours. Also the form will be present here. You can leave your email address and a remark/question.  The email field is           required and in case there is an invalid submission the error “invalid email address” will be noted.
 
   (There is not yet  a checkbox for the opt-in where you give permission to use the email address to sent promotional information)
 
@@ -159,7 +160,16 @@ _ The navigation button “contact” should direct to the “contact” page.  
 
 This project was developed using the [Cloud9 IDE](https://c9.io), committed to git and pushed to GitHub using the built in function within cloud9. 
 
-The site can be visited using the URL:(https://github.com/PeterdeWolff/dok7-website)
+The site can be visited using the link:(https://github.com/PeterdeWolff/dok7-website)
+
+At this moment the shop is not hosted at other platforms.
+
+
+## Credits
+ 
+The content of the site like photo's, video and text are provided by the owner of the shop.
+
+
 
 
 #### General information
