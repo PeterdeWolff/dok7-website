@@ -1,7 +1,7 @@
 # **Readme file for the Website DOK7.**
 
 Below you will find a description of the website for clothing store “DOK7woensel”  built for the first milestone project of the Code Institute full stack developer program.
-The site can be visited using the link  [website dok7](https://github.com/PeterdeWolff/dok7-website)
+The site can be visited using the link  [website dok7](https://peterdewolff.github.io/dok7-website/)
 
 DOK7 is a small clothing store for men and women.  The store continuously updates their collection according to the latest fashion.  Pictures of their collection are often shown on social media like facebook and instagram.  The website presents all the basic info like opening hours, address, brands, team, upcoming events and the possibility to leave a remark or question  on the contact page. 
 The main goal of the website is to inform (potential) customers. To give them a website where they can find information about address and opening hours, the brands they sell, upcoming events etc. The website is a need next to various social media platforms like facebook, Instagram.
@@ -160,7 +160,9 @@ During development the "inspect" option is often used to change styling and posi
 
 This project was developed using the [Cloud9 IDE](https://c9.io), committed to git and pushed to GitHub using the built in function within cloud9. 
 
-The site can be visited using the link:(https://github.com/PeterdeWolff/dok7-website)
+The repository can be found using the link : (https://github.com/PeterdeWolff/dok7-website)
+
+The site can be visited using the link:(https://peterdewolff.github.io/dok7-website/)
 
 At this moment the shop is not hosted at other platforms.
 
