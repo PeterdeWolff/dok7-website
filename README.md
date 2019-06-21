@@ -52,7 +52,10 @@ The user stories below are initiated after interviews with several potential use
 
 ## **Mockup**
 
-[Mockup](../assets/images/mock-up dok7.pdf)
+[Mockup index page](/assets/images/mockup index page.pdf)
+[Mockup about page](/assets/images/mockup about page.pdf)
+[Mockup women_men page](/assets/images/mockup women_men page.pdf)
+[Mockup contact page](/assets/images/mockup contact page.pdf)
 
 
 ## **Features**
