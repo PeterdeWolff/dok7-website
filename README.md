@@ -52,10 +52,10 @@ The user stories below are initiated after interviews with several potential use
 
 ## **Mockup**
 
-[Mockup index page](https://github.com/PeterdeWolff/dok7-website/blob/master/assets/images/mockup%20index%20page.pdf)
-[Mockup about page](https://github.com/PeterdeWolff/dok7-website/blob/master/assets/images/mockup%20about%20page.pdf)
-[Mockup women_men page](https://github.com/PeterdeWolff/dok7-website/blob/master/assets/images/mockup%20women_men%20page.pdf)
-[Mockup contact page](https://github.com/PeterdeWolff/dok7-website/blob/master/assets/images/mockup%20contact%20page.pdf)
+- [Mockup index page](https://github.com/PeterdeWolff/dok7-website/blob/master/assets/images/mockup%20index%20page.pdf)
+- [Mockup about page](https://github.com/PeterdeWolff/dok7-website/blob/master/assets/images/mockup%20about%20page.pdf)
+- [Mockup women_men page](https://github.com/PeterdeWolff/dok7-website/blob/master/assets/images/mockup%20women_men%20page.pdf)
+- [Mockup contact page](https://github.com/PeterdeWolff/dok7-website/blob/master/assets/images/mockup%20contact%20page.pdf)
 
 
 ## **Features**
